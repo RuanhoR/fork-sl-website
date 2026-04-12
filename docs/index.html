@@ -8,7 +8,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="generator" content="Docusaurus v3.9.2" />
-    <title data-rh="true">ClassScreenLock( Ruanhor 镜像部署 )</title>
+    <title data-rh="true">ClassScreenLock</title>
     <meta data-rh="true" property="og:title" content="ClassScreenLock" />
     <meta
       data-rh="true"
@@ -66,21 +66,21 @@
     />
     <script data-rh="true">
       function insertBanner() {
-        var n = document.createElement("div");
-        n.id = "__docusaurus-base-url-issue-banner-container";
-        ((n.innerHTML =
+        var n = document.createElement('div')
+        n.id = '__docusaurus-base-url-issue-banner-container'
+        ;((n.innerHTML =
           '\n<div id="__docusaurus-base-url-issue-banner" style="border: thick solid red; background-color: rgb(255, 230, 179); margin: 20px; padding: 20px; font-size: 20px;">\n   <p style="font-weight: bold; font-size: 30px;">Your Docusaurus site did not load properly.</p>\n   <p>A very common reason is a wrong site <a href="https://docusaurus.io/docs/docusaurus.config.js/#baseUrl" style="font-weight: bold;">baseUrl configuration</a>.</p>\n   <p>Current configured baseUrl = <span style="font-weight: bold; color: red;">/</span>  (default value)</p>\n   <p>We suggest trying baseUrl = <span id="__docusaurus-base-url-issue-banner-suggestion-container" style="font-weight: bold; color: green;"></span></p>\n</div>\n'),
-          document.body.prepend(n));
+          document.body.prepend(n))
         var e = document.getElementById(
-            "__docusaurus-base-url-issue-banner-suggestion-container",
+            '__docusaurus-base-url-issue-banner-suggestion-container'
           ),
           s = window.location.pathname,
-          o = "/" === s.substr(-1) ? s : s + "/";
-        e.innerHTML = o;
+          o = '/' === s.substr(-1) ? s : s + '/'
+        e.innerHTML = o
       }
-      document.addEventListener("DOMContentLoaded", function () {
-        void 0 === window.docusaurus && insertBanner();
-      });
+      document.addEventListener('DOMContentLoaded', function () {
+        void 0 === window.docusaurus && insertBanner()
+      })
     </script>
     <link
       rel="alternate"
@@ -128,42 +128,42 @@
       </defs>
     </svg>
     <script>
-      (!(function () {
+      ;(!(function () {
         var t =
           (function () {
             try {
               return new URLSearchParams(window.location.search).get(
-                "docusaurus-theme",
-              );
+                'docusaurus-theme'
+              )
             } catch (t) {}
           })() ||
           (function () {
             try {
-              return window.localStorage.getItem("theme");
+              return window.localStorage.getItem('theme')
             } catch (t) {}
-          })();
-        (document.documentElement.setAttribute(
-          "data-theme",
+          })()
+        ;(document.documentElement.setAttribute(
+          'data-theme',
           t ||
-            (window.matchMedia("(prefers-color-scheme: dark)").matches
-              ? "dark"
-              : "light"),
+            (window.matchMedia('(prefers-color-scheme: dark)').matches
+              ? 'dark'
+              : 'light')
         ),
           document.documentElement.setAttribute(
-            "data-theme-choice",
-            t || "system",
-          ));
+            'data-theme-choice',
+            t || 'system'
+          ))
       })(),
         (function () {
           try {
-            const c = new URLSearchParams(window.location.search).entries();
+            const c = new URLSearchParams(window.location.search).entries()
             for (var [t, e] of c)
-              if (t.startsWith("docusaurus-data-")) {
-                var a = t.replace("docusaurus-data-", "data-");
-                document.documentElement.setAttribute(a, e);
+              if (t.startsWith('docusaurus-data-')) {
+                var a = t.replace('docusaurus-data-', 'data-')
+                document.documentElement.setAttribute(a, e)
               }
           } catch (t) {}
-        })());
+        })())
     </script>
     <div id="__docusaurus">
       <link rel="preload" as="image" href="/img/纯logo没有文字.png" /><link
